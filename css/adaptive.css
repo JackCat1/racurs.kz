@@ -1,0 +1,438 @@
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px) {
+    #header .nav{
+        max-height: 9%;
+    }
+    #header{
+        min-height: 100vh;
+    }
+    #header .fullscreen-bg{
+        top: 9vh;
+        min-height: 91vh;
+    }
+    #header .overlay{
+        padding-top: 0;
+    }
+    #header .overlay h4{
+        display: none;
+    }
+    .card-wrap{
+        margin-top:28%;
+    }
+    .card-body{
+        width: 65%;
+    }
+    .card-body span{
+        float: none;
+        width: 100%;
+        font-size: 0.8em;
+    }
+    .start{
+        bottom: 1%;
+    }
+    .start a{
+        font-size: 1.5em;
+    }
+    .fixed-action-btn{
+        display: none;
+    }
+    #wh-widget-send-button{
+        display: block;
+    }
+    #about,#schema,#contacts{
+        min-height: 90vh;
+    }
+    #about .container{
+        padding-top:0;
+    }
+    #contacts .fullscreen-bg,.overlay{
+        min-height: 90vh;
+        padding-top:0;
+    }
+    #schema .fullscreen-bg,.overlay{
+        min-height: 90vh;
+        padding-top:0;
+    }
+    #schema .fullscreen-bg{
+        background: url("../media/img/bg1-mobail.jpg");
+        -webkit-background-size: cover;
+        background-size: cover;
+    }
+    #schema video{
+        display: none;
+    }
+    #schema ul{
+        width: 95%;
+    }
+    .list-hed{
+        text-shadow: 1px 1px 2px black;
+    }
+    .list-body{
+        line-height: 1em;
+        text-shadow: 1px 1px 2px black;
+    }
+    #schema .start{
+        display: block;
+    }
+    #contacts video{
+        display: none;
+    }
+    #contacts .fullscreen-bg{
+        background: url("../media/img/bg2-mobail.jpg");
+        -webkit-background-size: cover;
+        background-size: cover;
+    }
+
+}
+
+/* Smartphones (landscape) ----------- */
+@media only screen and (min-width : 321px) {
+    /*#header{
+        min-height: 100vh;
+    }
+    #header .fullscreen-bg{
+
+    }
+    #header .overlay{
+        padding-top:0;
+    }
+    #logo-i{
+        height: 9vh;
+    }
+    .mar{
+        margin-bottom:10px;
+    }
+    .overlay h4{
+        font-size: 1.6em;
+    }
+    .overlay h1{
+        font-size: 2.2em;
+    }
+    .card-wrap{
+        margin-top:0;
+    }
+    .card-body{
+        width: 70%;
+        font-size: 1.1em;
+    }
+    .start{
+        bottom: 1%;
+    }
+    .start a{
+        font-size: 1.3em;
+    }
+    #about .container{
+        padding-top:0;
+    }
+    #about h2{
+        margin-top:8%;
+        margin-bottom:1%;
+    }
+    #about .start{
+        bottom: 0;
+        margin-bottom:0;
+    }
+    video{
+        display: none;
+    }
+    #schema .fullscreen-bg,#contacts .fullscreen-bg{
+        min-height: 120vh;
+    }
+    #schema .overlay,#contacts .overlay{
+        min-height: 120vh;
+    }
+    #schema h3{
+        font-size: 1.8em;
+    }
+    #schema ul{
+        width: 90%;
+        line-height: 1.1em;
+    }
+    #schema .fullscreen-bg{
+        background: url("../media/img/bg1-mobail.jpg");
+        -webkit-background-size: cover;
+        background-size: cover;
+    }
+    #contacts .fullscreen-bg{
+        background: url("../media/img/bg2-mobail.jpg");
+        -webkit-background-size: cover;
+        background-size: cover;
+    }
+    .fixed-action-btn{
+        display: none;
+    }
+    #wh-widget-send-button{
+        display: block;
+    }
+    #services .row .col.m3{
+        width: 50%;
+    }
+    #services .row .col.m4{
+        width: 50%;
+    }
+    .card-content{
+        min-height: 80vh;
+    }*/
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-width : 320px) {
+
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px) {
+    #header{
+        min-height: 100vh;
+    }
+    .overlay{
+        padding-top:0;
+    }
+    .overlay h1{
+        /*margin-top:20vh;*/
+
+    }
+    .overlay h4{
+        /*margin-top:25vh;*/
+    }
+    .card-wrap{
+        margin-top:32%;
+    }
+    .card-body{
+        width: 70%;
+    }
+    .start{
+        bottom: 0;
+    }
+    .parallax-container{
+        top: 10vh;
+    }
+    video{
+        display: none;
+    }
+    #schema .fullscreen-bg{
+        min-height: 43vh;
+        background: url("../media/img/bg1-mobail.jpg");
+        background-size: cover;
+    }
+    #schema .overlay{
+        min-height: 43vh;
+        text-shadow: 1px 1px 2px black;
+    }
+    #schema ul{
+        width: 90%;
+        line-height: 1.1em;
+    }
+    #services .row .col.m3{
+        width: 50%;
+    }
+    #services .row .col.m4{
+        width: 50%;
+    }
+    .card-content{
+        min-height: 25vh;
+    }
+    #contacts{
+        min-height: 40vh;
+        padding:0;
+        background: url("../media/img/bg2-mobail.jpg");
+        -webkit-background-size: cover;
+        background-size: cover;
+    }
+    .fixed-action-btn{
+        display: none;
+    }
+    #wh-widget-send-button{
+        display: block;
+    }
+
+}
+
+/* iPads (landscape) ----------- */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : landscape) {
+
+}
+
+/* iPads (portrait) ----------- */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : portrait) {
+
+}
+/* iPad-PRO (portrait and landscape) ----------- */
+@media only screen
+and (min-device-width : 1024px)
+and (max-device-width : 1223px) {
+    #header{
+        min-height: 89vh;
+    }
+    #header .fullscreen-bg{
+        height: 78vh;
+    }
+    #header .overlay{
+        height: 78vh;
+    }
+    .overlay{
+        padding-top:0;
+    }
+    .overlay h1{
+        font-size: 5rem;
+
+    }
+    .overlay h4{
+        font-size: 2.5rem;
+    }
+    .card-wrap{
+        margin-top:32%;
+    }
+    .card-body{
+        width: 70%;
+        font-size: 1.8em;
+    }
+    .start{
+        bottom: 0;
+    }
+    .parallax-container{
+        top: 20vh;
+    }
+    video{
+        display: none;
+    }
+    #schema .fullscreen-bg{
+        min-height: 43vh;
+        background: url("../media/img/bg1-mobail.jpg");
+        background-size: cover;
+    }
+    #schema .overlay{
+        min-height: 43vh;
+        text-shadow: 1px 1px 2px black;
+    }
+    #schema ul{
+        width: 90%;
+        line-height: 1.3em;
+    }
+    .list-body{
+        font-size: 1.5em;
+    }
+    #services .row .col.m3{
+        width: 50%;
+    }
+    #services .row .col.m4{
+        width: 50%;
+    }
+    .card-content{
+        min-height: 25vh;
+    }
+    #contacts{
+        min-height: 40vh;
+        padding:0;
+        background: url("../media/img/bg2-mobail.jpg");
+        -webkit-background-size: cover;
+        background-size: cover;
+    }
+    .fixed-action-btn{
+        display: none;
+    }
+    #wh-widget-send-button{
+        display: block;
+    }
+
+}
+/* Desktops and laptops ----------- */
+@media only screen and (min-width : 1224px) {
+    .parallax-container{
+        top:6vh;
+    }
+    #header{
+        height: 100vh;
+    }
+    #header .overlay{
+        padding-top:11%;
+    }
+    .overlay{
+        padding:0;
+    }
+    .card-wrap{
+        margin-top:20%;
+    }
+    #contacts .overlay{
+        padding-top:5%;
+    }
+
+}
+
+/* Large screens ----------- */
+@media only screen and (min-width : 1824px) {
+    .parallax-container{
+        top: 15vh;
+    }
+    #header .overlay{
+        padding-top:6%;
+    }
+    .overlay h1{
+        font-size: 6rem;
+    }
+    .overlay h4{
+        font-size: 4rem;
+        margin-top:11%;
+    }
+    .card-wrap{
+        margin-top:15%;
+    }
+    .card-body{
+        font-size: 2.5em;
+    }
+    .start{
+        bottom: 0;
+    }
+    .start a{
+        font-size: 3em;
+    }
+    .list-hed{
+        font-size: 2.5em;
+    }
+    .list-body{
+        font-size: 2em;
+    }
+
+}
+
+/* iPhone 4 ----------- */
+@media
+only screen and (-webkit-min-device-pixel-ratio : 1.5),
+only screen and (min-device-pixel-ratio : 1.5) {
+
+}
+
+/* BlackBerry Torch -------- */
+@media screen and (max-device-width: 480px) {
+
+}
+
+/* Samsung GALAXY Tab -------- */
+@media (max-device-width: 1024px) and (orientation: landscape) {
+
+}
+
+/* Dell Streak 7 --------- */
+@media (max-device-width: 800px) {
+
+}
+
+/* Motorola's Xoom -------- */
+@media (max-device-width: 1280px) {
+
+}
+
+/* Samsung GALAXY Tab -------- */
+@media (max-device-width: 1024px) and (orientation: landscape) {
+
+}
